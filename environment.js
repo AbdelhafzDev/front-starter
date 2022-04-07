@@ -1,17 +1,17 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
   paths: {
     /* Path to source files directory */
-    source: path.resolve(__dirname + '/src'),
+    source: path.resolve(__dirname + "/src"),
 
     /* Path to built files directory */
-    output: path.resolve(__dirname + '/dist'),
+    output: path.resolve(__dirname + "/dist"),
   },
   server: {
-    host: 'localhost',
-    port: 3000,
-    proxy: 'http://localhost:5501/'
+    host: "localhost",
+    port: 3001,
+    proxy: "http://localhost:5501/",
   },
   limits: {
     /* Image files size in bytes. Below this value the image file will be served as DataURL (inline base64). */
